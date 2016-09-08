@@ -2,7 +2,7 @@
 main:
 
   - title: "Research"
-    url: /docs/hedonic_hg/
+    url: /docs/hedonic-hg/
     
   - title: "CV"
     url: /CV_tang.pdf/
@@ -15,7 +15,7 @@ docs:
   - title: Current Projects
     children:
       - title: "Valuation on Mercury Pollution"
-        url: /docs/hedonic_hg/
+        url: /docs/hedonic-hg/
       - title: "Fish Mercury Standardization"
         url: /docs/fish_hg/
       - title: "Valuation on Land Designation"

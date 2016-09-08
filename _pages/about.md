@@ -2,7 +2,7 @@
 title: "Chuan Tang's Page"
 layout: single
 permalink: /about/
-author_profile: false
+author_profile: ture
 date: 
 header:
   overlay_color: "#000"
