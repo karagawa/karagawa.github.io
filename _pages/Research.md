@@ -1,6 +1,6 @@
 ---
 title: "Research"
-layout: single
+author_profile: false
 permalink: /Research/
 date: "September 8, 2016"
 output: html_document
