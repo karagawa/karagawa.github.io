@@ -1,6 +1,5 @@
 ---
 title: "Chuan Tang's Page"
-layout: single
 permalink: /about/
 author_profile: false
 date: 

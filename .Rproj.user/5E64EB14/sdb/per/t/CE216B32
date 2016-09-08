@@ -1,19 +1,19 @@
 {
     "collab_server" : "",
     "contents" : "# example navigation\nfoo:\n  - title: \"Parent Link 1\"\n    url: /parent-1-page-url/\n    children:\n      - title: \"Child Link 1\"\n        url: /child-1-page-url/\n      - title: \"Child Link 2\"\n        url: /child-2-page-url/\n\n  - title: \"Parent Link 2\"\n    url: /parent-2-page-url/\n    children:\n      - title: \"Child Link 1\"\n        url: /child-1-page-url/\n      - title: \"Child Link 2\"\n        url: /child-2-page-url/\n      - title: \"Child Link 3\"\nurl: /child-3-page-url/\n\n\n# main links links\nmain:\n\n  - title: \"Research\"\n    url: /Research/\n    \n  - title: \"CV\"\n    url: /CV_tang.pdf/\n    \n  - title: \"About Me\"\n    url: /about/\n    \n\ndocs:\n  - title: Current Projects\n    children:\n      - title: \"Valuation on Mercury Pollution\"\n        url: /docs/hedonic-hg/\n      - title: \"Fish Mercury Standardization\"\n        url: /docs/fish_hg/\n      - title: \"Valuation on Land Designation\"\n        url: /docs/hedonic_ADK/\n      - title: \"Valuation on Rail Accidents\"\n        url: /docs/hedonic_rail/\n\n        \n  - title: Finished Projects\n    children:\n      - title: \"Survey on ED/EDR Technology\"\n        url: /docs/ED_EDR/\n      - title: \"Fracturing flow-backwater Treatment\"\n        url: /docs/fracturing/\n      - title: \"Human Health Risk Assessment in Southern China\"\n        url: /docs/chromium/\n      - title: \"Application of Nano-size Porous Material\"\n        url: /docs/porous/\n        ",
-    "created" : 1473343438242.000,
+    "created" : 1473352885660.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "2686869392",
-    "id" : "F25CA08F",
+    "id" : "CE216B32",
     "lastKnownWriteTime" : 1473348531,
-    "last_content_update" : 1473348531919,
+    "last_content_update" : 1473348531,
     "path" : "~/GitHub/karagawa.github.io/_data/navigation.yml",
     "project_path" : "_data/navigation.yml",
     "properties" : {
     },
-    "relative_order" : 6,
+    "relative_order" : 4,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "yaml"

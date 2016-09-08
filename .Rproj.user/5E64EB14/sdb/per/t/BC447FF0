@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Research\"\nauthor_profile: false\npermalink: /Research/\ndate: \"September 8, 2016\"\noutput: html_document\nsidebar:\n  nav: \"docs\"\n---\n\n{% include base_path %}\n\nMy research experience covers a wide range of disciplines including environmental sciencs, environmental engineering and environmental economics. You can find more detailed information on all projects I participated or am working on by clicking on the left side bar. ",
+    "created" : 1473352860599.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1934766833",
+    "id" : "BC447FF0",
+    "lastKnownWriteTime" : 1473350751,
+    "last_content_update" : 1473350751,
+    "path" : "~/GitHub/karagawa.github.io/_pages/Research.md",
+    "project_path" : "_pages/Research.md",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}

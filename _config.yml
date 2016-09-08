@@ -111,6 +111,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - _docs
   
 exclude:
   - "*.sublime-project"
@@ -142,7 +143,7 @@ keep_files:
   - .git
   - .svn
 encoding: 
-markdown_ext: "markdown,mkdown,mkdn,mkd,md,rmd"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
 # Conversion
