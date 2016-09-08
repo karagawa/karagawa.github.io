@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\nlayout: archive\npermalink: /blog/\ntitle: \"Posts by Year\"\nauthor_profile: true\n---\n\n{% include base_path %}\n{% capture written_year %}'None'{% endcapture %}\n{% for post in site.posts %}\n  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}\n  {% if year != written_year %}\n    <h2 id=\"{{ year | slugify }}\" class=\"archive__subtitle\">{{ year }}</h2>\n    {% capture written_year %}{{ year }}{% endcapture %}\n  {% endif %}\n  {% include archive-single.html %}\n{% endfor %}",
+    "created" : 1473342560913.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1085853858",
+    "id" : "546987F6",
+    "lastKnownWriteTime" : 1473342567,
+    "last_content_update" : 1473342567093,
+    "path" : "~/GitHub/karagawa.github.io/_pages/blog.html",
+    "project_path" : "_pages/blog.html",
+    "properties" : {
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "html"
+}

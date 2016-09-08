@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# main links links\nmain:\n\n  - title: \"Research\"\n    url: /Reseearch/\n    \n  - title: \"CV\"\n    url: /CV.pdf\n    \n  - title: \"About Me\"\n    url: /about/\n    \n",
+    "created" : 1473343438242.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "534894849",
+    "id" : "F25CA08F",
+    "lastKnownWriteTime" : 1473343479,
+    "last_content_update" : 1473343479893,
+    "path" : "~/GitHub/karagawa.github.io/_data/navigation.yml",
+    "project_path" : "_data/navigation.yml",
+    "properties" : {
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "yaml"
+}
