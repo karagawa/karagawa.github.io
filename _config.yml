@@ -8,11 +8,11 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "Chuan Tang's Blog"
-title_separator          : "|"
+title_separator          : ""
 name                     : "Chuan Tang"
-description              : "This is a test website"
+description              : ""
 url                      : "https://karagawa.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "/chuan" # the subpath of your site, e.g. "/blog"
 repository               : "karagawa/karagawa.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "500x300.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -82,7 +82,7 @@ author:
   bio              : ""
   location         : "Potsdam,NY"
   email            : "chutang#clarkson.edu"
-  uri              : "chuantang.info"
+  uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
