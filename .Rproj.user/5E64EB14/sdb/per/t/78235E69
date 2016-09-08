@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Chuan Tang's Page\"\npermalink: /about/\nauthor_profile: false\ndate: \nheader:\n  overlay_color: \"#000\"\n  overlay_filter: \"0.5\"\n  overlay_image: homepage.jpg\n  caption: \nexcerpt: \"Thoughts,Economics,Environmental Sciences,Data Analysis and More\"\n---\n{% include base_path %}\n\nI am a Ph.D. Candidate in Environmental Science and Engineering. As a typical student majoring in environmental science & engineering, I started my Ph.D. studying career by venturing into a completely new research sphere: environmental economics. My Ph.D. research focuses on non-market valuation on ecosystem service and cost-benefit analysis in an effort to better manage natural resources and to navigate policy-making processes in a scientific manner. I also have strong interests in applying the concept of Big Data into scientific research fields. \n{: .text-left}\n\n\n\n",
+    "created" : 1473375229520.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1624168424",
+    "id" : "78235E69",
+    "lastKnownWriteTime" : 1473375374,
+    "last_content_update" : 1473375374271,
+    "path" : "~/GitHub/karagawa.github.io/_pages/about.md",
+    "project_path" : "_pages/about.md",
+    "properties" : {
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}

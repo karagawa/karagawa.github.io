@@ -38,17 +38,17 @@ docs:
       - title: "Valuation on Mercury Pollution"
         url: /docs/hedonic-hg/
       - title: "Fish Mercury Standardization"
-        url: /docs/fish_hg/
+        url: /docs/fish-hg/
       - title: "Valuation on Land Designation"
-        url: /docs/hedonic_ADK/
+        url: /docs/hedonic-ADK/
       - title: "Valuation on Rail Accidents"
-        url: /docs/hedonic_rail/
+        url: /docs/hedonic-rail/
 
         
   - title: Finished Projects
     children:
       - title: "Survey on ED/EDR Technology"
-        url: /docs/ED_EDR/
+        url: /docs/ED-EDR/
       - title: "Fracturing flow-backwater Treatment"
         url: /docs/fracturing/
       - title: "Human Health Risk Assessment in Southern China"

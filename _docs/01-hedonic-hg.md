@@ -3,8 +3,9 @@ title: "Measuring the Value of Mitigating Mercury Pollution and Acidification in
 permalink: /docs/hedonic-hg/
 excerpt: 
 modified: 2016-04-13T15:54:02-04:00
-redirect_from:
-  - /theme-setup/
+author_profile: false
+sidebar:
+   nav: "docs"
 ---
 
 {% include base_path %}

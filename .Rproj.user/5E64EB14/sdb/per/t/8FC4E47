@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Chuan Tang's Page\"\npermalink: /Research/\nauthor_profile: false\ndate: \nsidebar:\n  nav: \"docs\"\n---\n{% include base_path %}\n\nFind my research by clicking the side-bar on the left\n\n\n\n",
+    "created" : 1473353197345.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1422301845",
+    "id" : "8FC4E47",
+    "lastKnownWriteTime" : 1473353473,
+    "last_content_update" : 1473353473205,
+    "path" : "~/GitHub/karagawa.github.io/_pages/Research.md",
+    "project_path" : "_pages/Research.md",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}
