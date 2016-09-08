@@ -1,14 +1,14 @@
 {
     "collab_server" : "",
     "contents" : "---\nlayout: archive\nauthor_profile: true\n---\n\n{% include base_path %}\n\n<h3 class=\"archive__subtitle\">{{ site.data.ui-text[site.locale].recent_posts | default: \"Recent Posts\" }}</h3>\n\n{% for post in paginator.posts %}\n  {% include archive-single.html %}\n{% endfor %}\n\n{% include paginator.html %}\n",
-    "created" : 1473300477056.000,
+    "created" : 1473302601783.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "1388935865",
-    "id" : "4ED89295",
-    "lastKnownWriteTime" : 1473299841,
-    "last_content_update" : 1473299841,
+    "id" : "A1CE130A",
+    "lastKnownWriteTime" : 1473311924,
+    "last_content_update" : 1473311924526,
     "path" : "~/GitHub/karagawa.github.io/index.html",
     "project_path" : "index.html",
     "properties" : {

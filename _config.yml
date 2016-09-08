@@ -6,15 +6,15 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en"
-title                    : "Site Title"
-title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+locale                   : "en-US"
+title                    : "Chuan Tang's Blog"
+title_separator          : "|"
+name                     : "Chuan Tang"
+description              : "This is a test website"
+url                      : "http://127.0.0.1:4000" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : karagawa/karagawa.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+repository               : "karagawa/karagawa.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : "500x300.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -70,19 +70,19 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google"  # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-83849416-1"
 
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Chuan Tang"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
-  uri              :
+  bio              : ""
+  location         : "Potsdam,NY"
+  email            : "chutang#clarkson.edu"
+  uri              : "chuantang.info"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -97,7 +97,7 @@ author:
   linkedin         :
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : "http://stackoverflow.com/users/4167611/chuan-tang" # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
   twitter          :
@@ -111,6 +111,7 @@ author:
 include:
   - .htaccess
   - _pages
+  
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -141,7 +142,7 @@ keep_files:
   - .git
   - .svn
 encoding: 
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md,rmd"
 
 
 # Conversion
@@ -172,9 +173,9 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate:  6 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
@@ -184,7 +185,7 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-github-metadata
+  - jekyll-archives
   
 # mimic GitHub Pages with --safe
 whitelist:
@@ -193,8 +194,37 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-github-metadata
 
+# defaults
+#defaults:
+ #_posts
+#   scope:
+#        path: ""
+#        type: posts
+#   values:
+#        read_time: true
+#        comments:  true
+#        author_profile: true
+#        layout: single
+#        share: true
+#        related: true
+#        
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      
+
+  # _foo
+  - scope:
+      path: ""
+      type: foo
+    values:
+      layout: single
+
+        
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
@@ -212,17 +242,18 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
 
+#jekyll-archives:
+#enabled:
+#  - categories
+#  - tags
+#layout: 'archive'
+#   category: archive-taxonomy
+#   tag: archive-taxonomy
+#permalinks:
+#   category: /categories/:name/
+#   tag: /tags/:name/
+#
 
 # HTML Compression
 # - http://jch.penibelst.de/
