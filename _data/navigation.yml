@@ -2,11 +2,36 @@
 main:
 
   - title: "Research"
-    url: /Reseearch/
+    url: /docs/hedonic_hg/
     
   - title: "CV"
-    url: /CV.pdf
+    url: /CV_tang.pdf/
     
   - title: "About Me"
     url: /about/
     
+
+docs:
+  - title: Current Projects
+    children:
+      - title: "Valuation on Mercury Pollution"
+        url: /docs/hedonic_hg/
+      - title: "Fish Mercury Standardization"
+        url: /docs/fish_hg/
+      - title: "Valuation on Land Designation"
+        url: /docs/hedonic_ADK/
+      - title: "Valuation on Rail Accidents"
+        url: /docs/hedonic_rail/
+
+        
+  - title: Finished Projects
+    children:
+      - title: "Survey on ED/EDR Technology"
+        url: /docs/ED_EDR/
+      - title: "Fracturing flow-backwater Treatment"
+        url: /docs/fracturing/
+      - title: "Human Health Risk Assessment in Southern China"
+        url: /docs/chromium/
+      - title: "Application of Nano-size Porous Material"
+        url: /docs/porous/
+        

@@ -1,7 +1,12 @@
 ---
 layout: single
 title: Featured Research
+permalink: /Research/
+sidebar:
+    nav: "docs"
 ---
+
+{% include base_path %}
 
 ## Measuring the Value of Mitigating Mercury Pollution and Acidification in New York State
 

@@ -1,14 +1,14 @@
 {
     "collab_server" : "",
-    "contents" : "# main links links\nmain:\n\n  - title: \"Research\"\n    url: /Reseearch/\n    \n  - title: \"CV\"\n    url: /CV.pdf\n    \n  - title: \"About Me\"\n    url: /about/\n    \n",
+    "contents" : "# main links links\nmain:\n\n  - title: \"Research\"\n    url: /docs/hedonic_hg/\n    \n  - title: \"CV\"\n    url: /CV_tang.pdf/\n    \n  - title: \"About Me\"\n    url: /about/\n    \n\ndocs:\n  - title: Current Projects\n    children:\n      - title: \"Valuation on Mercury Pollution\"\n        url: /docs/hedonic_hg/\n      - title: \"Fish Mercury Standardization\"\n        url: /docs/fish_hg/\n      - title: \"Valuation on Land Designation\"\n        url: /docs/hedonic_ADK/\n      - title: \"Valuation on Rail Accidents\"\n        url: /docs/hedonic_rail/\n\n        \n  - title: Finished Projects\n    children:\n      - title: \"Survey on ED/EDR Technology\"\n        url: /docs/ED_EDR/\n      - title: \"Fracturing flow-backwater Treatment\"\n        url: /docs/fracturing/\n      - title: \"Human Health Risk Assessment in Southern China\"\n        url: /docs/chromium/\n      - title: \"Application of Nano-size Porous Material\"\n        url: /docs/porous/\n        ",
     "created" : 1473343438242.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "534894849",
+    "hash" : "372103619",
     "id" : "F25CA08F",
-    "lastKnownWriteTime" : 1473343479,
-    "last_content_update" : 1473343479893,
+    "lastKnownWriteTime" : 1473346934,
+    "last_content_update" : 1473346934888,
     "path" : "~/GitHub/karagawa.github.io/_data/navigation.yml",
     "project_path" : "_data/navigation.yml",
     "properties" : {
