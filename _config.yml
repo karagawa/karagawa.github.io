@@ -13,7 +13,7 @@ name                     : "Your Name"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : karagawa/karagawa.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -30,7 +30,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : # "master", "gh-pages"
+  branch                 : master # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -135,10 +135,12 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - karagawa.github.io.Rproj
+  
 keep_files:
   - .git
   - .svn
-encoding: "utf-8"
+encoding: 
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
@@ -182,7 +184,8 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
+  - jekyll-github-metadata
+  
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -190,7 +193,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
+  - jekyll-github-metadata
 
 # Archives
 #  Type
