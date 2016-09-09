@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(ggplot2)\n\n\nSite <- c(1,2,1,2,1,2,1,2)\nValue <- c(1.2,2.1,1.1,0.9,0.7,1.7,2.1,2.3)\nDate <- c(\"Feb\",\"Jun\",\"Feb\",\"Jun\",\"Feb\",\"Jun\",\"Feb\",\"Jun\")\nVar <- c(\"C\",\"pH\",\"N\",\"EC\",\"C\",\"pH\",\"N\",\"EC\")\n\n\ndf <- data.frame(factor(Site),Value,factor(Date),factor(Var))\n\ninter <- interaction(df$Site, df$Date)\n\nggplot(df,aes(x=inter,y=Value))+ geom_bar(stat=\"identity\",position=\"dodge\")\n\n\n\n        \nggplot(df,aes(x=inter,y=Value,fill=Var))+ geom_bar(stat=\"identity\",position=\"dodge\")\n\n",
+    "created" : 1473392631137.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "617898023",
+    "id" : "4FC61177",
+    "lastKnownWriteTime" : 28429440806879331,
+    "last_content_update" : 1473394167964,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
