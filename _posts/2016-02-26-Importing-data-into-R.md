@@ -1,13 +1,11 @@
 ---
-layout: single
 title: "How to Import Data into R"
-author: "Chuan Tang"
 date: "February 25, 2016"
-output: html_document
 description: A summary about various methods to import data into R.
-tags: R
-comments: true
-share: true
+categories: 
+  - R
+tags: 
+  - Data Importing
 ---
 
 
