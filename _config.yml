@@ -164,12 +164,7 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-  
-  # Collections
-collections:
-  docs:
-    output: true
-    permalink: /:collection/:path/
+
 
 # Sass/SCSS
 sass:
@@ -200,7 +195,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-archives
 
 # defaults
 defaults:
@@ -246,12 +240,12 @@ defaults:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
-category_archive:
-   type: liquid
-   path: /categories/
-tag_archive:
-   type: liquid
-   path: /tags/
+#category_archive:
+#  type: liquid
+#  path: /categories/
+#tag_archive:
+#  type: liquid
+#  path: /tags/
 # https://github.com/jekyll/jekyll-archives
 
 #jekyll-archives:
@@ -265,23 +259,23 @@ tag_archive:
 #   category: /categories/:name/
 #   tag: /tags/:name/
 #
-#category_archive:
-#  type: jekyll-archives
- # path: /categories/
-#tag_archive:
- # type: jekyll-archives
-  #path: /tags/
-#jekyll-archives:
- # enabled:
-  #  - categories
-   # - tags
-  #layouts:
-   # category: archive-taxonomy
-  #  tag: archive-taxonomy
-#  permalinks:
- #   category: /categories/:name/
-  #  tag: /tags/:name/
-#
+category_archive:
+  type: jekyll-archives
+  path: /categories/
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+
 
 
 
