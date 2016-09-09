@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "<!-- start custom head snippets -->\n\n<!-- insert favicons. use http://realfavicongenerator.net/ -->\n\n<!-- end custom head snippets -->\n\n<link href=\"https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic\" rel=\"stylesheet\" type=\"text/css\">\n",
+    "created" : 1473385265051.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3789800206",
+    "id" : "7D7700A5",
+    "lastKnownWriteTime" : 1473385273,
+    "last_content_update" : 1473385273391,
+    "path" : "~/GitHub/karagawa.github.io/_includes/head/custom.html",
+    "project_path" : "_includes/head/custom.html",
+    "properties" : {
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "html"
+}

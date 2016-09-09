@@ -41,7 +41,7 @@ download.file(url, sample_path)
 Once we download the data successfully, we can read the downloaded file directly from the `sample_path`. `readr` provides `read_csv` for `.csv` file and `read_tsv` for `.txt` file:
 
 
-```r
+```
 library(readr)
 
 sample_data <- read_csv(sample_path)
@@ -50,7 +50,7 @@ sample_data <- read_csv(sample_path)
 Then, we can check the structure of the `example` data:
 
 
-```r
+```
 str(sample_data)
 ```
 
