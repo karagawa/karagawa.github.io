@@ -1,14 +1,14 @@
 {
     "collab_server" : "",
-    "contents" : "<!-- start custom head snippets -->\n\n<!-- insert favicons. use http://realfavicongenerator.net/ -->\n\n<!-- end custom head snippets -->\n\n<link href=\"https://fonts.googleapis.com/css?family=Lato|Open+Sans\" rel=\"stylesheet\">",
+    "contents" : "<!-- start custom head snippets -->\n\n<!-- insert favicons. use http://realfavicongenerator.net/ -->\n\n<!-- end custom head snippets -->\n\n<link href='http://fonts.googleapis.com/css?family=Ovo' rel='stylesheet' type='text/css'>",
     "created" : 1473398171133.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2533810639",
+    "hash" : "1096087836",
     "id" : "5F0A41F",
-    "lastKnownWriteTime" : 1473398360,
-    "last_content_update" : 1473398360604,
+    "lastKnownWriteTime" : 1474338379,
+    "last_content_update" : 1474338379,
     "path" : "~/GitHub/karagawa.github.io/_includes/head/custom.html",
     "project_path" : "_includes/head/custom.html",
     "properties" : {
