@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "/* ==========================================================================\n   Sass variables\n   ========================================================================== */\n\n/*\n   Typography\n   ========================================================================== */\n\n$doc-font-size: 16;\n$doc-line-height: 26;\n$paragraph-indent: true !default;\n$base-font: 'PT Serif', serif;\n$heading-font: 'PT Sans Narrow', sans-serif;\n$code-font: Monaco, \"Courier New\", \"DejaVu Sans Mono\", \"Bitstream Vera Sans Mono\", monospace;\n$alt-font: $base-font;\n\n/*\n   Colors\n   ========================================================================== */\n\n$bodycolor      : #fff;\n$body-color     : $bodycolor;\n$textcolor      : #333332;\n$text-color     : $textcolor;\n$border-color   : $text-color;\n$basecolor \t\t  : #343434;\n$compcolor \t\t  : spin($basecolor, 180);\n$bordercolor    : $basecolor;\n$white          : #fff;\n$black          : #111;\n$accentcolor    : $black;\n\n/* buttons */\n$primary\t\t\t: $black;\n$success\t\t\t: #5cb85c;\n$warning\t\t\t: #dd8338;\n$danger\t\t\t\t: #C64537;\n$info\t\t\t\t  : #308cbc;\n\n/* brands */\n$facebook-color     : #3b5998;\n$flickr-color       : #ff0084;\n$foursquare-color   : #0cbadf;\n$google-plus-color  : #dd4b39;\n$instagram-color    : #4e433c;\n$linkedin-color     : #4875b4;\n$pinterest-color    : #cb2027;\n$rss-color          : #fa9b39;\n$tumblr-color       : #2c4762;\n$twitter-color      : #55acee;\n$vimeo-color        : #1ab7ea;\n$youtube-color      : #ff3333;\n\n/* links */\n$linkcolor \t\t    : #343434;\n$link-color       : $linkcolor;\n$linkcolorhover \t: darken($linkcolor, 10);\n$linkcolorvisited : lighten($linkcolorhover, 20);\n$linkcolorfocus \t: darken($linkcolorvisited, 10);\n\n/*\n   Breakpoints\n   ========================================================================== */\n\n$micro            : \"only screen and (min-width: 30em)\";\n$small            : \"only screen and (min-width: 37.5em)\";\n$medium           : \"only screen and (min-width: 48em)\";\n$large            : \"only screen and (min-width: 62em)\";\n$x-large          : \"only screen and (min-width: 86.375em)\";\n",
+    "created" : 1474342007237.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4156691225",
+    "id" : "E457420",
+    "lastKnownWriteTime" : 1474341973,
+    "last_content_update" : 1474341973,
+    "path" : "~/GitHub/karagawa.github.io/_sass/_variables.scss",
+    "project_path" : "_sass/_variables.scss",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}

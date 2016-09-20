@@ -1,14 +1,14 @@
 {
     "collab_server" : "",
-    "contents" : "{% include base_path %}\n\n<meta charset=\"utf-8\">\n\n{% include seo.html %}\n\n<link href=\"{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}\" type=\"application/atom+xml\" rel=\"alternate\" title=\"{{ site.title }} Feed\">\n\n\n<!-- http://t.co/dKP3o1e -->\n<meta name=\"HandheldFriendly\" content=\"True\">\n<meta name=\"MobileOptimized\" content=\"320\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n<script>\n  document.documentElement.className = document.documentElement.className.replace(/\\bno-js\\b/g, '') + ' js ';\n</script>\n\n<!-- For all browsers -->\n<link rel=\"stylesheet\" href=\"{{ base_path }}/assets/css/main.css\">\n\n<meta http-equiv=\"cleartype\" content=\"on\">\n\n<link href=\"https://fonts.googleapis.com/css?family=Droid+Serif|Ovo|Raleway\" rel=\"stylesheet\"> ",
+    "contents" : "{% include base_path %}\n\n<meta charset=\"utf-8\">\n\n{% include seo.html %}\n\n<link href=\"{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}\" type=\"application/atom+xml\" rel=\"alternate\" title=\"{{ site.title }} Feed\">\n\n\n<!-- http://t.co/dKP3o1e -->\n<meta name=\"HandheldFriendly\" content=\"True\">\n<meta name=\"MobileOptimized\" content=\"320\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n<script>\n  document.documentElement.className = document.documentElement.className.replace(/\\bno-js\\b/g, '') + ' js ';\n</script>\n\n<!-- For all browsers -->\n<link rel=\"stylesheet\" href=\"{{ base_path }}/assets/css/main.css\">\n\n<meta http-equiv=\"cleartype\" content=\"on\">\n\n<link href=\"https://fonts.googleapis.com/css?family=Playfair+Display+SC|Raleway\" rel=\"stylesheet\">  ",
     "created" : 1474338335940.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "4056099252",
+    "hash" : "2317471874",
     "id" : "9FE88F3",
-    "lastKnownWriteTime" : 1474341114,
-    "last_content_update" : 1474341114221,
+    "lastKnownWriteTime" : 1474341785,
+    "last_content_update" : 1474341785105,
     "path" : "~/GitHub/karagawa.github.io/_includes/head.html",
     "project_path" : "_includes/head.html",
     "properties" : {
