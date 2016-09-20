@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "TabSet1" : 1,
+=======
+    "TabSet1" : 0,
+>>>>>>> parent of 2629803... small change
     "TabSet2" : 0,
     "TabZoom" : {
     }
